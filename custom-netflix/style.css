@@ -72,17 +72,16 @@ body {
 }
 
 #container .recommended-movie .text h2 .first {
-   font-size: 1.3rem;
+   font-size: 1.4rem;
 }
 
 #container .recommended-movie .text h2 .second {
-   font-size: 1.3rem;
-   margin-left: 0.3rem;
-   place-self: flex-end;
+   font-size: 1.1rem;
+   margin: 0 2rem 0 0.3rem;
 }
 
 #container .recommended-movie .text h2 .third {
-   font-size: 2rem;
+   font-size: 2.1rem;
    margin-right: 0.3rem;
 }
 
@@ -117,7 +116,7 @@ body {
 
 #container .recommended-movie .mini-details .movie-title {
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
 }
@@ -129,7 +128,7 @@ body {
 
 #container .recommended-movie .mini-details .justify-space-between .category {
     color: #4e4e4e;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
     place-self: center;
 }
