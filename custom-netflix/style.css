@@ -14,3 +14,19 @@ body {
     background-color: #000;
     width: 100%;
 }
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#container header {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 22px 22px;
+}
+
+#container .recommended-movie .background .image {
+    height: 500px;
+    width: 100%;;
+}
