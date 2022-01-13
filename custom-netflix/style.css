@@ -55,7 +55,7 @@ body {
     display: block;
     top: 15px;
     z-index: 1;
-    width: 225px;
+    width: 195px;
 }
 
 #container .recommended-movie .text h2 {
@@ -72,16 +72,17 @@ body {
 }
 
 #container .recommended-movie .text h2 .first {
-   font-size: 2rem;
+   font-size: 1.3rem;
 }
 
 #container .recommended-movie .text h2 .second {
-   font-size: 1.7rem;
+   font-size: 1.3rem;
    margin-left: 0.3rem;
+   place-self: flex-end;
 }
 
 #container .recommended-movie .text h2 .third {
-   font-size: 1.5rem;
+   font-size: 2rem;
    margin-right: 0.3rem;
 }
 
@@ -100,7 +101,6 @@ body {
 #container .recommended-movie .text h2 span {
    display: flex;
    place-self: flex-start;
-   height: 40px;
 }
 
 #container .recommended-movie .mini-details {
