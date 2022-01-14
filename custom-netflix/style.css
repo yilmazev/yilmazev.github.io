@@ -157,29 +157,48 @@ body {
 }
 
 #container .content {
-    cursor: pointer;
+    display: block;
+    width: 600px;
+    height: 100%;
+    margin-top: 1rem;
 }
 
 #container .content .category {
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
 #container .content .category .title {
-    cursor: pointer;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
 }
 
 #container .content .category .movies {
-    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 #container .content .category .movies .movie {
     cursor: pointer;
+    transition: 0.2s;
 }
 
 #container .content .category .movies .movie .background {
-    cursor: pointer;
+    height: 225px;
+    width: 150px;
 }
 
 #container .content .category .movies .movie .background .image {
-    cursor: pointer;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+#container .content .category .movies .movie:hover {
+    transform: scale(1.05);
 }
