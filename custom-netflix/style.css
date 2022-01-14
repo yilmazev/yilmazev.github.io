@@ -15,6 +15,13 @@ body {
     width: 100%;
 }
 
+#container .error { 
+    display: block;
+    color: #fff;
+    font-size: 5rem;
+}
+
+@media only screen and (max-width:972px) {
 #container {
     display: flex;
     flex-direction: column;
@@ -206,4 +213,9 @@ body {
 
 #container .content .category .movies .movie:hover {
     transform: scale(1.05);
+}
+
+#container .error { 
+    display: hidden;
+}
 }
