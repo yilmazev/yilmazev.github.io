@@ -134,11 +134,52 @@ body {
 }
 
 #container .recommended-movie .mini-details .justify-space-between button {
+    display: flex;
+    align-items: center;
     background-color: #fff;
     border-radius: 3px;
     color: #000;
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 1rem;
     padding: 5px 30px;
+    transition: 0.2s;
+}
+
+#container .recommended-movie .mini-details .justify-space-between button svg {
+    width: 21px;
+    margin-right: 0.2rem;
+}
+
+#container .recommended-movie .mini-details .justify-space-between button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px #ffffff42;
+}
+
+#container .content {
+    cursor: pointer;
+}
+
+#container .content .category {
+    cursor: pointer;
+}
+
+#container .content .category .title {
+    cursor: pointer;
+}
+
+#container .content .category .movies {
+    cursor: pointer;
+}
+
+#container .content .category .movies .movie {
+    cursor: pointer;
+}
+
+#container .content .category .movies .movie .background {
+    cursor: pointer;
+}
+
+#container .content .category .movies .movie .background .image {
+    cursor: pointer;
 }
