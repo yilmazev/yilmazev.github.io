@@ -161,6 +161,7 @@ body {
     width: 600px;
     height: 100%;
     margin-top: 1rem;
+    overflow: hidden;
 }
 
 #container .content .category {
@@ -184,6 +185,7 @@ body {
 #container .content .category .movies .movie {
     cursor: pointer;
     transition: 0.2s;
+    margin-right: 0.5rem;
 }
 
 #container .content .category .movies .movie .background {
