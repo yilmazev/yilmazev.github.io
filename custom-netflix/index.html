@@ -3,6 +3,7 @@
     <title>Custom Netflix Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css?update" rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div id="container">
@@ -26,55 +27,71 @@
         <div class="content">
             <div class="category">
                 <span class="title">Popular on Netflix</span>
-                <div class="movies">
-                    <div class="movie">
-                        <div class="background">
-                            <span role="image" class="image" style="background-image: url('fight-club.jpg')"></span>
+                <div class="movies mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="movie swiper-slide">
+                            <div class="background">
+                                <span role="image" class="image" style="background-image: url('fight-club.jpg')"></span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="movie">
-                        <div class="background">
-                            <span role="image" class="image" style="background-image: url('cast-away.jpg')"></span>
+                        <div class="movie swiper-slide">
+                            <div class="background">
+                                <span role="image" class="image" style="background-image: url('cast-away.jpg')"></span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="movie">
-                        <div class="background">
-                            <span role="image" class="image" style="background-image: url('shawshank-redemption.jpg')"></span>
+                        <div class="movie swiper-slide">
+                            <div class="background">
+                                <span role="image" class="image" style="background-image: url('shawshank-redemption.jpg')"></span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="movie">
-                        <div class="background">
-                            <span role="image" class="image" style="background-image: url('benjamin-button.jpg')"></span>
+                        <div class="movie swiper-slide">
+                            <div class="background">
+                                <span role="image" class="image" style="background-image: url('benjamin-button.jpg')"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="category">
                 <span class="title">Watch It Again</span>
-                <div class="movies">
-                    <div class="movie">
-                        <div class="background">
-                            <span role="image" class="image" style="background-image: url('truman-show.jpg')"></span>
+                <div class="movies mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="movie swiper-slide">
+                            <div class="background">
+                                <span role="image" class="image" style="background-image: url('truman-show.jpg')"></span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="movie">
-                        <div class="background">
-                            <span role="image" class="image" style="background-image: url('boys-striped-pajamas.jpg')"></span>
+                        <div class="movie swiper-slide">
+                            <div class="background">
+                                <span role="image" class="image" style="background-image: url('boys-striped-pajamas.jpg')"></span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="movie">
-                        <div class="background">
-                            <span role="image" class="image" style="background-image: url('pianist.jpg')"></span>
+                        <div class="movie swiper-slide">
+                            <div class="background">
+                                <span role="image" class="image" style="background-image: url('pianist.jpg')"></span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="movie">
-                        <div class="background">
-                            <span role="image" class="image" style="background-image: url('forrest-gump.jpg')"></span>
+                        <div class="movie swiper-slide">
+                            <div class="background">
+                                <span role="image" class="image" style="background-image: url('forrest-gump.jpg')"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
+    <!-- SwiperJS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- SwiperJS Config -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          freeMode: true,
+        });
+    </script>
 </body>
 </html>
