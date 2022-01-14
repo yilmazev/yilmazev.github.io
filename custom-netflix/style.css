@@ -15,10 +15,14 @@ body {
     width: 100%;
 }
 
-#container .error { 
+.error { 
     display: block;
     color: #fff;
     font-size: 5rem;
+}
+
+#container{ 
+    display: none;
 }
 
 @media only screen and (max-width:972px) {
@@ -215,7 +219,7 @@ body {
     transform: scale(1.05);
 }
 
-#container .error { 
-    display: hidden;
+.error { 
+    display: none;
 }
 }
