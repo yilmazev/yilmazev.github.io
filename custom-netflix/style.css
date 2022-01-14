@@ -186,12 +186,14 @@ body {
 #container .content .category .movies .movie {
     cursor: pointer;
     transition: 0.2s;
-    margin-right: 0.5rem;
+    margin-right: 0.5rem!important;
+    height: 225px!important;
+    width: 150px!important;
 }
 
 #container .content .category .movies .movie .background {
-    height: 225px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
 }
 
 #container .content .category .movies .movie .background .image {
