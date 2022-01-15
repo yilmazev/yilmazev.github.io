@@ -103,7 +103,7 @@ body {
 #container .content .category .head {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     margin-bottom: 10px;
 }
 
@@ -115,7 +115,7 @@ body {
 
 #container .content .category .head .see-all {
     color: #5a5858;
-    font-size: 0.9rem;
+    font-size: 0.83rem;
     font-weight: 500;
 }
 
