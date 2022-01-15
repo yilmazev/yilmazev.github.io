@@ -92,6 +92,46 @@ body {
     width: 110px;
 }
 
+#container .content {
+    background-color: #8ebafa;
+}
+
+#container .content .category {
+    background-color: #8ebafa;
+}
+
+#container .content .category .head {
+    background-color: #8ebafa;
+}
+
+#container .content .category .head .title {
+    background-color: #8ebafa;
+}
+
+#container .content .category .head .see-all {
+    background-color: #8ebafa;
+}
+
+#container .content .category .musics {
+    background-color: #8ebafa;
+}
+
+#container .content .category .musics .music {
+    background-color: #8ebafa;
+}
+
+#container .content .category .musics .music img {
+    background-color: #8ebafa;
+}
+
+#container .content .category .musics .music .title {
+    background-color: #8ebafa;
+}
+
+#container .content .category .musics .music .artist {
+    background-color: #8ebafa;
+}
+
 .error { 
     display: none;
 }
