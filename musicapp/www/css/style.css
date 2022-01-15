@@ -32,7 +32,6 @@ body {
     align-items: center;
     width: 100%;
     height: auto;
-    padding: 0 15px;
 }
 
 #container .navbar {
@@ -40,7 +39,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 25px 0 25px 0;
+    padding: 25px 15px 25px 15px;
 }
 
 #container .navbar .profile-photo {
@@ -67,7 +66,8 @@ body {
     background-color: #313855;
     padding: 20px;
     border-radius: 12px;
-    width: 100%;
+    width: 95%;
+    margin: 0 15px;
 }
 
 #container .change-plan .title {
@@ -101,6 +101,7 @@ body {
     margin-bottom: 20px;
     overflow: hidden;
     width: 100%;
+    padding: 0 15px;
 }
 
 #container .content .category .head {
