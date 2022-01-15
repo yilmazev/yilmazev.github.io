@@ -175,6 +175,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    overflow: hidden;
+    width: 100vh;
 }
 
 #container .content .category .artists .artist {
@@ -205,6 +207,8 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    width: 100%;
+    text-align: center;
 }
 
 #container .content .category .artists .artist:hover {
