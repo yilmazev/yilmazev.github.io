@@ -125,6 +125,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    overflow: hidden;
+    width: 100vh;
 }
 
 #container .content .category .musics .music {
@@ -151,6 +153,10 @@ body {
     font-size: 0.95rem;
     font-weight: 500;
     margin-bottom: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
 }
 
 #container .content .category .musics .music .artist {
