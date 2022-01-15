@@ -58,14 +58,7 @@ body {
     font-size: 1.09rem;
     font-weight: 500;
 }
-
-#container .navbar .mini-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 55px;
-}
-
-#container .navbar .mini-nav svg {
+#container .navbar svg {
     width: 23px;
     fill: none;
     stroke: #fff;
