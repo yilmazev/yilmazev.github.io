@@ -34,6 +34,42 @@ body {
     height: auto;
 }
 
+#container .content {
+    width: auto;
+}
+
+#container .navbar {
+    width: auto;
+}
+
+#container .navbar .profile-photo {
+    width: auto;
+}
+
+#container .navbar .title {
+    width: auto;
+}
+
+#container .navbar .title .mini-nav {
+    width: auto;
+}
+
+#container .navbar .title .mini-nav svg {
+    width: auto;
+}
+
+#container .change-plan {
+    width: auto;
+}
+
+#container .change-plan .title {
+    width: auto;
+}
+
+#container .change-plan .title .try-for-free {
+    width: auto;
+}
+
 .error { 
     display: none;
 }
