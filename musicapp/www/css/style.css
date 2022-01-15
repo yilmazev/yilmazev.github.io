@@ -200,7 +200,7 @@ body {
     border-radius: 15px;
     padding: 15px;
     transition: 0.3s;
-    width: auto!important;
+    width: 160px!important;
 }
 
 #container .content .category .artists .artist .profile-photo {
