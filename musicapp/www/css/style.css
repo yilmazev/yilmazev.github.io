@@ -98,6 +98,7 @@ body {
 #container .content .category {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 #container .content .category .head {
@@ -180,13 +181,15 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #2f3652;
     border-radius: 15px;
     padding: 15px;
     transition: 0.3s;
+    margin-right: 10px;
 }
 
-#container .content .category .artists .artist .album {
+#container .content .category .artists .artist .profile-photo {
     width: 130px;
     border-radius: 12px;
     box-shadow: 0px 4px 7px 0px #00000054;
@@ -194,11 +197,14 @@ body {
     image-rendering: -webkit-optimize-contrast;
 }
 
-#container .content .category .artists .artist .title {
+#container .content .category .artists .artist .full-name {
     color: #fff;
     font-size: 0.95rem;
     font-weight: 500;
     margin-bottom: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 #container .content .category .artists .artist:hover {
