@@ -36,26 +36,28 @@
                     <span class="title">Suggested artist</span>
                     <span class="see-all">See all</span>
                 </div>
-                <div class="artists">
-                    <div class="artist">
-                        <img src="www/img/tugkan.jpg" alt="Tuğkan" class="profile-photo">
-                        <span class="full-name">Tuğkan</span>
-                    </div>
-                    <div class="artist">
-                        <img src="www/img/emir-can-igrek.jpg" alt="Emir Can İğrek" class="profile-photo">
-                        <span class="full-name">Emir Can İğrek</span>
-                    </div>
-                    <div class="artist">
-                        <img src="www/img/duman.jpg" alt="Duman" class="profile-photo">
-                        <span class="full-name">Duman</span>
-                    </div>
-                    <div class="artist">
-                        <img src="www/img/mor-ve-otesi.jpg" alt="Mor ve Ötesi" class="profile-photo">
-                        <span class="full-name">Mor ve Ötesi</span>
-                    </div>
-                    <div class="artist">
-                        <img src="www/img/yuzyuzeyken-konusuruz.jpg" alt="Yüzyüzeyken Konuşuruz" class="profile-photo">
-                        <span class="full-name">Yüzyüzeyken Konuşuruz</span>
+                <div class="artists mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="artist swiper-slide">
+                            <img src="www/img/tugkan.jpg" alt="Tuğkan" class="profile-photo">
+                            <span class="full-name">Tuğkan</span>
+                        </div>
+                        <div class="artist swiper-slide">
+                            <img src="www/img/emir-can-igrek.jpg" alt="Emir Can İğrek" class="profile-photo">
+                            <span class="full-name">Emir Can İğrek</span>
+                        </div>
+                        <div class="artist swiper-slide">
+                            <img src="www/img/duman.jpg" alt="Duman" class="profile-photo">
+                            <span class="full-name">Duman</span>
+                        </div>
+                        <div class="artist swiper-slide">
+                            <img src="www/img/mor-ve-otesi.jpg" alt="Mor ve Ötesi" class="profile-photo">
+                            <span class="full-name">Mor ve Ötesi</span>
+                        </div>
+                        <div class="artist swiper-slide">
+                            <img src="www/img/yuzyuzeyken-konusuruz.jpg" alt="Yüzyüzeyken Konuşuruz" class="profile-photo">
+                            <span class="full-name">Yüzyüzeyken Konuşuruz</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -72,6 +74,7 @@
     <script>
         var swiper = new Swiper(".mySwiper", {
           slidesPerView: 3,
+          spaceBetween: 10,
           freeMode: true,
         });
     </script>
