@@ -247,9 +247,7 @@ body {
 }
 
 #container .fixed-menu svg.active {
-    width: 24px;
-    stroke: none;
-    fill: #8ebafa;
+    stroke: #8ebafa;
 }
 
 .error { 
