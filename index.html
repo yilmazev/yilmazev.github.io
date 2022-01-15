@@ -48,13 +48,59 @@
 body {
     background-color: #000;
 }
+
+#container {
+    display: block;
+    width: 100%;
+}
+
+#container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container .content .profile-photo {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+
+#container .content .title {
+    border-radius: 100px;
+}
+
+#container .content .small-text {
+    border-radius: 100px;
+}
+
+#container .content hr.bold {
+    border-radius: 100px;
+}
+
+#container .content hr.normal {
+    border-radius: 100px;
+}
+
+#container .content .column {
+    border-radius: 100px;
+}
+
+#container .content .border-box {
+    border-radius: 100px;
+}
+
+#container .content footer {
+    border-radius: 100px;
+}
 </style>
 <body>
     <div id="container">
         <div class="content">
             <img src="https://instastatistics.com/images/default_avatar.jpg" alt="@yilmazev" class="profile-photo">
             <span class="title">> I'm Yilmaz Ev</span>
-            <span class="work">just student.</span>
+            <span class="small-text">just student.</span>
             <hr class="bold">
             <div class="column">
                 <span class="title">> Network</span>
@@ -70,11 +116,11 @@ body {
                 <a href="" target="_blank" class="border-box">Github</a>
                 <a href="" target="_blank" class="border-box">Instagram</a>
                 <a href="" target="_blank" class="border-box">Hugoyin#7116</a>
-                <a href="" target="_blank" class="border-box">ylmzofc@outlook.com
+                <a href="" target="_blank" class="border-box">ylmzofc@outlook.com</a>
             </div>
             <footer>
                 <hr class="bold">
-                <span class="text">copyright by yılmaz ev</span>
+                <span class="small-text">copyright by yılmaz ev</span>
             </footer>
         </div>
     </div>
