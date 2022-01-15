@@ -244,9 +244,11 @@ body {
     fill: none;
     stroke: #fff;
     stroke-width: 1.9px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-#container .fixed-menu svg.active {
+#container .fixed-menu svg:hover, #container .fixed-menu svg.active {
     stroke: #8ebafa;
 }
 
