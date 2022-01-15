@@ -135,7 +135,7 @@ body {
     transition: 0.3s;
 }
 
-#container .content .category .musics .music img {
+#container .content .category .musics .music .album {
     width: 130px;
     border-radius: 12px;
     box-shadow: 0px 4px 7px 0px #00000054;
@@ -166,6 +166,42 @@ body {
 }
 
 #container .content .category .musics .music:hover {
+    box-shadow: 0px 5px 10px 0px #0000004f;
+    cursor: pointer;
+}
+
+#container .content .category .artists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#container .content .category .artists .artist {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #2f3652;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+#container .content .category .artists .artist .album {
+    width: 130px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 7px 0px #00000054;
+    margin-bottom: 15px;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+#container .content .category .artists .artist .title {
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+#container .content .category .artists .artist:hover {
     box-shadow: 0px 5px 10px 0px #0000004f;
     cursor: pointer;
 }
