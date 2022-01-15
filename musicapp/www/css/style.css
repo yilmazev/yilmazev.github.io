@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #24293d;
     width: 100%;
 }
 
@@ -32,6 +32,7 @@ body {
     align-items: center;
     width: 100%;
     height: auto;
+    padding: 0 15px;
 }
 
 #container .content {
@@ -39,35 +40,63 @@ body {
 }
 
 #container .navbar {
-    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0 25px 0;
 }
 
 #container .navbar .profile-photo {
-    width: auto;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
 }
 
 #container .navbar .title {
-    width: auto;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
-#container .navbar .title .mini-nav {
-    width: auto;
+#container .navbar .mini-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 55px;
 }
 
-#container .navbar .title .mini-nav svg {
-    width: auto;
+#container .navbar .mini-nav svg {
+    width: 23px;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2.3px;
 }
 
 #container .change-plan {
-    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #313855;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
 }
 
 #container .change-plan .title {
-    width: auto;
+    color: #fff;
+    font-size: 1.38rem;
+    font-weight: 500;
+    width: 38%;
+    margin-bottom: 0.8rem;
 }
 
-#container .change-plan .title .try-for-free {
-    width: auto;
+#container .change-plan button {
+    background-color: #8ebafa;
+    color: #24293d;
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding: 10px 0px;
+    border-radius: 12px;
+    width: 110px;
 }
 
 .error { 
