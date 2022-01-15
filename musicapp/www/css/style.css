@@ -34,7 +34,7 @@ body {
     height: auto;
 }
 
-#container .navbar {
+#container .page-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,18 +42,18 @@ body {
     padding: 25px 15px 25px 15px;
 }
 
-#container .navbar .profile-photo {
+#container .page-nav .profile-photo {
     height: 30px;
     width: 30px;
     border-radius: 100px;
 }
 
-#container .navbar .title {
+#container .page-nav .title {
     color: #fff;
     font-size: 1.09rem;
     font-weight: 500;
 }
-#container .navbar svg {
+#container .page-nav svg {
     width: 23px;
     fill: none;
     stroke: #fff;
@@ -224,6 +224,28 @@ body {
 #container .content .category .artists .artist:hover {
     box-shadow: 0px 5px 10px 0px #0000004f;
     cursor: pointer;
+}
+
+#container .fixed-menu {
+    position: fixed;
+    bottom: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#container .fixed-menu svg {
+    width: 24px;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1.2px;;
+}
+
+#container .fixed-menu svg.active {
+    width: 24px;
+    stroke: none;
+    fill: #000;
 }
 
 .error { 
