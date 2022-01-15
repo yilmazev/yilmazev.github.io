@@ -132,6 +132,10 @@ body {
     background-color: #8ebafa;
 }
 
+#container .content .category .musics .music svg {
+    background-color: #8ebafa;
+}
+
 .error { 
     display: none;
 }
