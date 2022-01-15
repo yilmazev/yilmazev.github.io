@@ -2,7 +2,7 @@
 <head>
     <title>Custom Netflix Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css?update" rel="stylesheet" type="text/css">
+    <link href="www/css/style.css" rel="stylesheet" type="text/css">
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -10,7 +10,7 @@
         <header>
             <div class="recommended-movie">
                 <div class="background">
-                    <span role="img" class="image" style="background-image: linear-gradient(360deg, #000000ed, transparent), url('movie.jpg')"></span>
+                    <span role="img" class="image" style="background-image: linear-gradient(360deg, #000000ed, transparent), url('www/img/movie.jpg')"></span>
                 </div>
                 <div class="text">
                     <h2><span class="first">Movie</span><span class="second">of</span><span class="third">2022</span><span class="fourth red">Fight Club</span></h2>
@@ -31,22 +31,22 @@
                     <div class="swiper-wrapper">
                         <div class="movie swiper-slide">
                             <div class="background">
-                                <span role="image" class="image" style="background-image: url('fight-club.jpg')"></span>
+                                <span role="image" class="image" style="background-image: url('www/img/fight-club.jpg')"></span>
                             </div>
                         </div>
                         <div class="movie swiper-slide">
                             <div class="background">
-                                <span role="image" class="image" style="background-image: url('cast-away.jpg')"></span>
+                                <span role="image" class="image" style="background-image: url('www/img/cast-away.jpg')"></span>
                             </div>
                         </div>
                         <div class="movie swiper-slide">
                             <div class="background">
-                                <span role="image" class="image" style="background-image: url('shawshank-redemption.jpg')"></span>
+                                <span role="image" class="image" style="background-image: url('www/img/shawshank-redemption.jpg')"></span>
                             </div>
                         </div>
                         <div class="movie swiper-slide">
                             <div class="background">
-                                <span role="image" class="image" style="background-image: url('benjamin-button.jpg')"></span>
+                                <span role="image" class="image" style="background-image: url('www/img/benjamin-button.jpg')"></span>
                             </div>
                         </div>
                     </div>
@@ -58,22 +58,22 @@
                     <div class="swiper-wrapper">
                         <div class="movie swiper-slide">
                             <div class="background">
-                                <span role="image" class="image" style="background-image: url('truman-show.jpg')"></span>
+                                <span role="image" class="image" style="background-image: url('www/img/truman-show.jpg')"></span>
                             </div>
                         </div>
                         <div class="movie swiper-slide">
                             <div class="background">
-                                <span role="image" class="image" style="background-image: url('boys-striped-pajamas.jpg')"></span>
+                                <span role="image" class="image" style="background-image: url('www/img/boys-striped-pajamas.jpg')"></span>
                             </div>
                         </div>
                         <div class="movie swiper-slide">
                             <div class="background">
-                                <span role="image" class="image" style="background-image: url('pianist.jpg')"></span>
+                                <span role="image" class="image" style="background-image: url('www/img/pianist.jpg')"></span>
                             </div>
                         </div>
                         <div class="movie swiper-slide">
                             <div class="background">
-                                <span role="image" class="image" style="background-image: url('forrest-gump.jpg')"></span>
+                                <span role="image" class="image" style="background-image: url('www/img/forrest-gump.jpg')"></span>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,6 @@
     <script>
         var swiper = new Swiper(".mySwiper", {
           slidesPerView: 3,
-          spaceBetween: 30,
           freeMode: true,
         });
     </script>
