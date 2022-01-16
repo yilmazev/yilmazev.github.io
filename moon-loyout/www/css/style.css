@@ -111,7 +111,7 @@ ul {
 }
 
 #index-register .col-1 .online .icon {
-  background-image: url('www/img/hotel.png');
+  background-image: url('/img/hotel.png');
   height: 21px;
   width: 17px;
   margin-right: 7px;
@@ -182,7 +182,7 @@ ul {
   display: flex;
   flex-direction: column;
   width: 500px;
-  background-image: url('www/img/clouds.png');
+  background-image: url('/img/clouds.png');
   border-radius: 0px 10px 10px 0px;
   animation-name: scroll;
   animation-duration: 500s;
@@ -380,7 +380,7 @@ ul {
 }
 
 #me header .btn.hotel .icon {
-  background-image: url('www/img/hotel-me.png');
+  background-image: url('/img/hotel-me.png');
   width: 19px;
   height: 24px;
   margin-right: 5px;
