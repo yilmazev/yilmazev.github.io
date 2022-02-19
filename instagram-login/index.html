@@ -17,5 +17,20 @@
             </div>
         </div>
     </div>
+    <script>
+    $(function () {
+        var input = $('#reg_username');
+        var inputpass = $('#reg_userpassword');
+        var button = $('#reg_submit');
+
+        inputpass.keyup(function () {
+            if ($(this).val() == '') {
+                button.prop('disabled', true);
+            } else {
+                button.prop('disabled', false);
+            }
+        });
+    }); 
+    </script>
 </body>
 </html>
