@@ -33,10 +33,20 @@ body {
     width: 90%;
 }
 
-#container .content .center .logo {
-    width: 180px;
-    margin: 0 auto 30px;
-    image-rendering: -webkit-optimize-contrast;
+#container .content .center .title {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.90rem;
+    margin-bottom: 5px;
+}
+
+#container .content .center .desc {
+    color: #8e8e8e;
+    font-size: 0.90rem;
+}
+
+#container .content .center .form-page {
+    margin-top: 30px;
 }
 
 #container .content .center .input {
