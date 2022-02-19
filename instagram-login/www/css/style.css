@@ -42,7 +42,7 @@ body {
 #container .content .center .input {
     background-color: #262626;
     border: 0;
-    color: #a7a7a7;
+    color: #fff;
     font-size: 1rem;
     font-weight: 400;
     padding: 15px 20px;
@@ -50,6 +50,19 @@ body {
     margin-bottom: 15px;
     border-radius: 5px;
 }
+
+#container .content .center .input::placeholder {
+    color: #a7a7a7;
+    opacity: 1;
+  }
+  
+  #container .content .center .input:-ms-input-placeholder {
+    color: #a7a7a7;
+  }
+  
+  #container .content .center .input::-ms-input-placeholder {
+    color: #a7a7a7;
+  }
 
 #container .content .center .log-in {
     background-color: #0088f8;
