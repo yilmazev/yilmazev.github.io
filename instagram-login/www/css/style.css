@@ -43,6 +43,7 @@ body {
 #container .content .center .desc {
     color: #8e8e8e;
     font-size: 0.90rem;
+    text-align: center;
 }
 
 #container .content .center .form-page {
