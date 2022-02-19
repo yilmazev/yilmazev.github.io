@@ -47,24 +47,24 @@ body {
     font-weight: 400;
     padding: 15px 20px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     border-radius: 5px;
 }
 
 #container .content .center .log-in {
-    background-color: #004c80;
+    background-color: #0088f8;
     border: 0;
     width: 100%;
     font-size: 1rem;
-    color: #ffffff52;
+    color: #ffffff;
     padding: 15px;
     border-radius: 5px;
 }
 
 #container .content .center .forgot-password {
     color: #8e8e8e;
-    font-size: 0.90rem;
-    margin: 25px 0 20px 0;
+    font-size: 0.85rem;
+    margin: 15px 0 15px 0;
 }
 
 #container .content .center .forgot-password b {
@@ -75,7 +75,7 @@ body {
 
 #container .content .center .divider {
     display: table;
-    font-size: 1rem;
+    font-size: 0.95em;
     line-height: 24px;
     color: #979494;
     position: relative;
