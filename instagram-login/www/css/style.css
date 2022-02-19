@@ -50,3 +50,37 @@ body {
     margin-bottom: 24px;
     border-radius: 5px;
 }
+
+#container .content .center .log-in {
+    asd: asd;
+}
+
+#container .content .center .forgot-password {
+    asd: asd;
+}
+
+#container .content .center .forgot-password b {
+    asd: asd;
+}
+
+#container .content .center .divider {
+    asd: asd;
+}
+
+#container .content .center .divider::after {
+    border-top: 1px solid rgb(204, 204, 204);
+    content: "";
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 42%;
+}
+
+#container .content .center .divider::after {
+    border-top: 1px solid rgb(204, 204, 204);
+    content: "";
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 42%;
+}
