@@ -140,12 +140,13 @@ body {
     bottom: 0;
     width: 100%;
     border-top: 1px solid #181818;
+    padding: 15px 0;
+    text-align: center;
 }
 
 #container .content .bottom .sign-up {
     color: #8e8e8e;
     font-size: 0.75rem;
-    margin: 15px 0;
 }
 
 #container .content .bottom .sign-up b {
