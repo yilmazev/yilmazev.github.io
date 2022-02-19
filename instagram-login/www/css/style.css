@@ -43,7 +43,7 @@ body {
     background-color: #262626;
     border: 0;
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.90rem;
     font-weight: 400;
     padding: 15px 20px;
     width: 100%;
@@ -68,7 +68,7 @@ body {
     background-color: #0088f8;
     border: 0;
     width: 100%;
-    font-size: 1rem;
+    font-size: 0.90rem;
     color: #ffffff;
     padding: 15px;
     border-radius: 5px;
@@ -76,7 +76,7 @@ body {
 
 #container .content .center .forgot-password {
     color: #8e8e8e;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     margin: 15px 0 15px 0;
 }
 
@@ -88,7 +88,7 @@ body {
 
 #container .content .center .divider {
     display: table;
-    font-size: 0.95em;
+    font-size: 0.90em;
     line-height: 24px;
     color: #979494;
     position: relative;
