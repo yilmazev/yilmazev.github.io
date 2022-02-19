@@ -34,7 +34,7 @@ body {
 }
 
 #container .content .center .logo {
-    width: 190px;
+    width: 180px;
     margin: 0 auto 30px;
     image-rendering: -webkit-optimize-contrast;
 }
@@ -45,7 +45,7 @@ body {
     color: #fff;
     font-size: 0.90rem;
     font-weight: 400;
-    padding: 15px 20px;
+    padding: 15px;
     width: 100%;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -70,16 +70,6 @@ body {
     width: 100%;
     font-size: 0.90rem;
     color: #ffffff;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-#container .content .center .log-in:disabled {
-    background-color: #004c80;
-    border: 0;
-    width: 100%;
-    font-size: 0.90rem;
-    color: #ffffff52;
     padding: 15px;
     border-radius: 5px;
 }
