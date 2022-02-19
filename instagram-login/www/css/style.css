@@ -122,6 +122,7 @@ body {
 #container .content .center .facebook {
     color: #0098fe;
     font-size: 0.90rem;
+    font-weight: 500;
     display: flex;
     align-items: center;
 }
