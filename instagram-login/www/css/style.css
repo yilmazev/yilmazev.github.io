@@ -99,6 +99,7 @@ body {
     position: relative;
     text-align: center;
     width: 100%;
+    margin-bottom: 25px;
 }
 
 #container .content .center .divider::before {
