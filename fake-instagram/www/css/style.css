@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+body {
+    background-color: rgb(0 0 0);
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+}
+
+#container .content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container .content .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+}
+
+#container .content .center .icon {
+    background-color: #fff;
+    border-radius: 100px;
+    margin-bottom: 30px;
+}
+
+#container .content .center .icon svg {
+    width: 60px;
+    fill: none;
+    stroke: #000;
+    stroke-width: 2px;
+}
+
+#container .content .center .title {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+#container .content .center .desc {
+    color: #8e8e8e;
+    font-size: 0.90rem;
+    text-align: center;
+}
+
+#container .content .center .form-page {
+    margin-top: 30px;
+}
+
+#container .content .center .input {
+    background-color: #262626;
+    border: 0;
+    color: #fff;
+    font-size: 0.90rem;
+    font-weight: 400;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#container .content .center .input::placeholder {
+    color: #a7a7a7;
+    opacity: 1;
+  }
+  
+  #container .content .center .input:-ms-input-placeholder {
+    color: #a7a7a7;
+  }
+  
+  #container .content .center .input::-ms-input-placeholder {
+    color: #a7a7a7;
+  }
+
+#container .content .center .log-in {
+    background-color: #0088f8;
+    border: 0;
+    width: 100%;
+    font-size: 0.90rem;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#container .content .center .log-in:disabled {
+    background-color: #004c80;
+    color: #ffffff52;
+}
+
+#container .content .center .forgot-password {
+    color: #8e8e8e;
+    font-size: 0.75rem;
+    margin: 15px 0 15px 0;
+}
+
+#container .content .center .forgot-password b {
+    color: #fff;
+    font-weight: 500;
+    padding-left: 3px;
+}
+
+#container .content .center .divider {
+    display: table;
+    font-size: 0.90rem;
+    line-height: 24px;
+    color: #979494;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#container .content .center .divider::before {
+    border-top: 1px solid #181818;
+    content: "";
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 42%;
+}
+
+#container .content .center .divider::after {
+    border-top: 1px solid #181818;
+    content: "";
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 42%;
+}
+
+#container .content .center .facebook {
+    color: #0098fe;
+    font-size: 0.90rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+#container .content .center .facebook svg {
+    width: 27px;
+    fill: #0098fe;
+    padding-right: 3px;
+}
+
+#container .content .bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #181818;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#container .content .bottom .sign-up {
+    color: #8e8e8e;
+    font-size: 0.75rem;
+}
+
+#container .content .bottom .sign-up b {
+    color: #fff;
+    font-weight: 500;
+    padding-left: 3px;
+}
