@@ -1,0 +1,232 @@
+/*
+
+Developed by
+ _   _   _   _   _____   _____  __    __  _   __   _  
+| | | | | | | | /  ___| /  _  \ \ \  / / | | |  \ | |
+| |_| | | | | | | |     | | | |  \ \/ /  | | |   \| |
+|  _  | | | | | | |  _  | | | |   \  /   | | | |\   |
+| | | | | |_| | | |_| | | |_| |   / /    | | | | \  |
+|_| |_| \_____/ \_____/ \_____/  /_/     |_| |_|  \_|
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(1deg, #131316, #19191c);
+  overflow: hidden;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #00000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #171616;
+  border-radius: 50px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+#container .wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+
+#container .wrapper .sidebar {
+  display: flex;
+  width: 50%;
+  background-image: linear-gradient(135deg, #131316, transparent), url('../img/background.png');
+  background-position: center;
+  image-rendering: pixelated;
+}
+
+#container .wrapper .sidebar .register {
+  background-color: #69ca6d;
+}
+
+#container .wrapper .sidebar .discord {
+  background-color: #7289da;
+}
+
+#container .wrapper .content {
+  display: flex;
+  width: 50%;
+  background: linear-gradient(1deg, #131316, #19191c);
+  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#container .wrapper .content .online {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  width: 363px;
+}
+
+#container .wrapper .content .online .box {
+  background-color: #151518;
+  color: #ababb1;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 5px;
+  position: relative;
+  padding: 18px 15px 18px 15px;
+  margin: 0 0 0 25px;
+}
+
+#container .wrapper .content .online .box::before {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 15px;
+  left: -12px;
+  background-color: inherit;
+  -webkit-clip-path: polygon(0 0,0 100%,100% 100%);
+  clip-path: polygon(0 0,0 100%,100% 100%);
+  transform: rotate(45deg);
+  border-radius: 0 0 0 5px;
+  content: "";
+}
+
+#container .wrapper .content .input {
+  display: flex;
+  width: 363px;
+  padding: 13px 15px;
+  margin-bottom: 0.5em;
+  border: 0px;
+  background-color: #1c1c20;
+  color: #ababb1;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+#container .wrapper .content .input::placeholder {
+  color: #5a5757;
+  opacity: 1;
+}
+
+#container .wrapper .content .input:-ms-input-placeholder {
+  color: #5a5757;
+}
+
+#container .wrapper .content .input::-ms-input-placeholder {
+  color: #5a5757;
+}
+
+#container .wrapper .content .select {
+  background-color: #1c1c20;
+}
+
+#container .wrapper .content .button {
+  margin-top: 1em;
+  width: 363px;
+  padding: 13px 15px;
+  margin-bottom: 0.5em;
+  border: 0px;
+  text-align: center;
+  font-size: 15px;
+  color: #dbcece;
+  font-weight: 500;
+  border-radius: 3px;
+  transition: 0.2s;
+}
+
+#container .wrapper .content .button.login {
+  background-color: #2a8895;
+}
+
+#container .wrapper .content .button.register {
+  background-color: #376c38;
+}
+
+#container .wrapper .content .button:active,
+#container .wrapper .content .button:hover {
+  cursor: pointer;
+}
+
+#container .wrapper .content .button.login:active,
+#container .wrapper .content .button.login:hover {
+  background-color: #39a2b1;
+}
+
+#container .wrapper .content .button.register:active,
+#container .wrapper .content .button.register:hover {
+  background-color: #3f7a40;
+}
+
+#container .wrapper .content .error {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #af352c;
+  border-radius: 3px;
+  color: #d7cdcd;
+  font-size: 15px;
+  padding: 10px;
+}
+
+#container .wrapper .content .divider {
+  display: table;
+  font-size: 0.90rem;
+  line-height: 24px;
+  color: #2d2d32;
+  font-weight: 500;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  width: 363px;
+  margin: 5px 0;
+}
+
+#container .wrapper .content .divider::before {
+  border-top: 1px solid #1c1c20;
+  content: "";
+  display: table-cell;
+  position: relative;
+  top: 0.8em;
+  width: 42%;
+}
+
+#container .wrapper .content .divider::after {
+  border-top: 1px solid #1c1c20;
+  content: "";
+  display: table-cell;
+  position: relative;
+  top: 0.8em;
+  width: 42%;
+}
