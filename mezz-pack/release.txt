@@ -1,5 +1,0 @@
-Updates:
-+ Flash login
-+ NFT and more clothes
-+ Flash camera fix
-+ New config file
